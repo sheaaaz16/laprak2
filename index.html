@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curriculum Vitae - Sheila Fatihah AzZahra</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        background-color: #e3e4e6;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #333;
+        font-size: 14px;
+        line-height: 1.5;
+        padding: 20px 0;
+      }
+
+      .cv-container {
+        max-width: 900px;
+        margin: 0 auto;
+        background-color: white;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+      }
+
+      .left-sidebar {
+        background-color: white;
+        padding: 30px 25px;
+        height: 100%;
+      }
+
+      .contact-box {
+        background-color: #e6e8ec;
+        padding: 20px;
+        margin-bottom: 30px;
+        border-radius: 1px;
+      }
+
+      .section-header {
+        background-color: #e6e8ec;
+        padding: 8px 15px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #444;
+        font-size: 13px;
+        margin-bottom: 15px;
+        margin-top: 30px;
+      }
+
+      .contact-box .section-header {
+        background: none;
+        padding: 0;
+        border-bottom: none;
+        margin-top: 0;
+        margin-bottom: 15px;
+        color: #222;
+      }
+
+      .right-content {
+        background-color: white;
+        padding: 40px 35px;
+      }
+
+      .profile-img-container {
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      /* PERUBAHAN DI SINI: border-radius dihapus agar foto kotak */
+      .profile-img {
+        width: 160px;
+        height: 160px;
+        object-fit: cover;
+        border: 5px solid #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .main-header {
+        display: flexbox;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+      }
+
+      .header-row {
+        border-bottom: 2px solid #ddd;
+      }
+
+      .main-header h1 {
+        font-weight: 800;
+        text-transform: uppercase;
+        font-size: 28px; /* Sedikit diperkecil agar nama panjang muat */
+        color: #2c2c2c;
+        margin-bottom: 5px;
+      }
+      .main-header h2 {
+        font-size: 18px;
+        color: #666;
+        font-weight: normal;
+      }
+
+      .contact-group {
+        margin-bottom: 12px;
+      }
+      .contact-label {
+        font-weight: 700;
+        font-size: 12px;
+        display: block;
+        color: #555;
+        text-transform: capitalize;
+        margin-bottom: 2px;
+      }
+      .contact-value {
+        font-size: 13px;
+        color: #333;
+        word-wrap: break-word;
+        font-weight: 500;
+      }
+
+      .clean-list {
+        list-style: none;
+        padding: 0;
+      }
+      .clean-list li {
+        margin-bottom: 8px;
+        padding-bottom: 4px;
+        color: #555;
+      }
+      .clean-list li:last-child {
+        border-bottom: none;
+      }
+
+      .experience-item {
+        margin-bottom: 25px;
+      }
+      .exp-header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2px;
+      }
+      .exp-title {
+        font-weight: bold;
+        font-size: 15px;
+      }
+      .exp-year {
+        font-size: 14px;
+        color: #888;
+      }
+      .exp-company {
+        font-weight: 600;
+        font-size: 14px;
+        color: #444;
+        display: block;
+        margin-bottom: 8px;
+      }
+      .exp-desc {
+        padding-left: 18px;
+        margin-bottom: 0;
+        color: #555;
+      }
+      .exp-desc li {
+        margin-bottom: 4px;
+      }
+
+      .profile-text {
+        text-align: justify;
+        color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container cv-container p-0">
+      <div class="row g-0 header-row">
+        <div class="col-md-4 left-sidebar" style="padding-bottom: 20px">
+          <div class="profile-img-container" style="margin-bottom: 0">
+            <img
+              src="asset/img/image.png"
+              alt="Foto Profil Sheila"
+              class="profile-img"
+            />
+          </div>
+        </div>
+
+        <div class="col-md-8 right-content" style="padding-bottom: 20px">
+          <div class="main-header">
+            <h1>SHEILA FATIHAH AZZAHRA</h1>
+            <h2>S1 Teknik Informatika</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="row g-0">
+        <div class="col-md-4 left-sidebar">
+          <div class="contact-box">
+            <div class="section-header">KONTAK</div>
+
+            <div class="contact-group">
+              <span class="contact-label">Whatsapp</span>
+              <span class="contact-value">+62 812 9988 7766</span>
+            </div>
+            <div class="contact-group">
+              <span class="contact-label">Linkedin</span>
+              <span class="contact-value">Sheila Fatihah</span>
+            </div>
+            <div class="contact-group">
+              <span class="contact-label">Email</span>
+              <span class="contact-value">sheila.fatihah@itpln.ac.id</span>
+            </div>
+            <div class="contact-group">
+              <span class="contact-label">Domisili</span>
+              <span class="contact-value"
+                >Jl. Ciledug Raya No. 15, Jakarta Selatan</span
+              >
+            </div>
+            <div class="contact-group">
+              <span class="contact-label">Portfolio</span>
+              <span class="contact-value">dribbble.com/sheila_design</span>
+            </div>
+          </div>
+
+          <div class="section-header mt-4">KEAHLIAN</div>
+          <ul class="clean-list">
+            <li>UI/UX Design</li>
+            <li>Wireframing & Prototyping</li>
+            <li>User Research</li>
+            <li>HTML5 & CSS3</li>
+            <li>Responsive Web Design</li>
+          </ul>
+
+          <div class="section-header mt-4">SOFTWARE</div>
+          <ul class="clean-list">
+            <li>Figma (Expert)</li>
+            <li>Adobe Photoshop</li>
+            <li>Adobe Illustrator</li>
+            <li>Visual Studio Code</li>
+            <li>Notion / Trello</li>
+          </ul>
+
+          <div class="section-header mt-4">PENDIDIKAN</div>
+          <div style="margin-bottom: 15px">
+            <div style="font-weight: bold">S1 Teknik Informatika</div>
+            <div style="font-size: 13px">Institut Teknologi PLN</div>
+            <div style="font-size: 13px; color: #777">2024 - Sekarang</div>
+            <div style="font-size: 13px">IPK: 3.85</div>
+          </div>
+        </div>
+
+        <div class="col-md-8 right-content">
+          <div class="section-header">PROFIL</div>
+          <p class="profile-text mt-3">
+            Halo, saya Sheila, mahasiswi S1 Teknik Informatika di Institut
+            Teknologi PLN yang memiliki passion kuat di bidang UI/UX Design dan
+            Front-End Development. Saya senang menggabungkan estetika desain
+            dengan fungsionalitas teknis untuk menciptakan pengalaman pengguna
+            yang intuitif. Saya terbiasa menggunakan Figma untuk merancang
+            antarmuka dan memiliki pemahaman teknis dalam implementasi desain ke
+            kode (HTML/CSS).
+          </p>
+
+          <div class="section-header mt-5">PENGALAMAN KERJA</div>
+
+          <div class="experience-item mt-3">
+            <div class="exp-header">
+              <span class="exp-title">UI/UX Designer Intern</span>
+              <span class="exp-year">2024 - Sekarang</span>
+            </div>
+            <span class="exp-company">StartUp Kreatif Nusantara</span>
+            <ul class="exp-desc">
+              <li>
+                Membuat wireframe, mockup, dan prototype high-fidelity untuk
+                aplikasi mobile edukasi.
+              </li>
+              <li>
+                Melakukan riset pengguna (user interview) untuk memahami
+                kebutuhan user sebelum proses desain.
+              </li>
+              <li>
+                Membuat Design System agar elemen visual konsisten di seluruh
+                platform.
+              </li>
+            </ul>
+          </div>
+
+          <div class="experience-item">
+            <div class="exp-header">
+              <span class="exp-title">Freelance Graphic Designer</span>
+              <span class="exp-year">2023 - 2024</span>
+            </div>
+            <span class="exp-company">Self-Employed (Projects)</span>
+            <ul class="exp-desc">
+              <li>
+                Merancang materi visual untuk media sosial UMKM, meningkatkan
+                engagement hingga 20%.
+              </li>
+              <li>Mendesain logo dan identitas brand untuk klien lokal.</li>
+              <li>
+                Bekerja sama dengan klien untuk revisi desain sesuai deadline
+                yang ketat.
+              </li>
+            </ul>
+          </div>
+
+          <div class="section-header mt-5">SERTIFIKASI & PELATIHAN</div>
+
+          <div class="experience-item mt-3">
+            <div class="exp-header">
+              <span class="exp-title"
+                >Google UX Design Professional Certificate</span
+              >
+              <span class="exp-year">2024</span>
+            </div>
+            <span class="exp-company">Coursera</span>
+            <div style="font-size: 14px; color: #555; padding-left: 2px">
+              Mempelajari fondasi UX, proses Empathize, Define, Ideate, hingga
+              Usability Testing.
+            </div>
+          </div>
+
+          <div class="experience-item">
+            <div class="exp-header">
+              <span class="exp-title">Belajar Dasar Visualisasi Data</span>
+              <span class="exp-year">2023</span>
+            </div>
+            <span class="exp-company">Dicoding Indonesia</span>
+            <div style="font-size: 14px; color: #555; padding-left: 2px">
+              Memahami prinsip komunikasi visual dan penyajian data yang
+              efektif.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
